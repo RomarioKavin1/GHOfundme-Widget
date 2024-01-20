@@ -1,0 +1,19 @@
+{
+  "name": "ghofundme",
+  "version": "1.0.0",
+  "description": "An SDK to Integrate The ghofund me Lens Application",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx rollup -c"
+  },
+  "author": "romariokavin",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^18.2.48",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.9.5",
+    "typescript": "^5.3.3"
+  }
+}
