@@ -1,2 +1,2 @@
-export * from './components/GFMbutton';
-export * from './components/GFMmodal';
+export * from './components/Gbutton';
+export * from './components/Gmodal';

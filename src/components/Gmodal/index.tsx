@@ -4,14 +4,14 @@ import { Modal } from '../Modal';
 import Image from 'next/image';
 import React, { useState } from 'react';
 import Stepper from '../Stepper';
-interface GFMmodalProps {
+interface GmodalProps {
   children?: React.ReactNode;
   isOpen: boolean;
   onClose: () => void;
   subscription: boolean;
 }
 
-export const GFMmodal: React.FC<GFMmodalProps> = ({
+export const Gmodal: React.FC<GmodalProps> = ({
   isOpen,
   onClose,
   subscription
@@ -19,7 +19,6 @@ export const GFMmodal: React.FC<GFMmodalProps> = ({
   const [step, setStep] = useState(1);
   const [tokenName, setTokenName] = useState('Gab Fan Token');
   const [tokenCode, setTokenCode] = useState('$GBR');
-  const [mintTokenValidity, setMintTokenValidity] = useState('3 Months');
   const [Tokenprice, setTokenprice] = useState(3);
   const [sliderValue, setSliderValue] = useState(0);
 

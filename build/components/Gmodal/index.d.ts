@@ -1,9 +1,9 @@
 import React from 'react';
-interface GFMmodalProps {
+interface GmodalProps {
     children?: React.ReactNode;
     isOpen: boolean;
     onClose: () => void;
     subscription: boolean;
 }
-export declare const GFMmodal: React.FC<GFMmodalProps>;
+export declare const Gmodal: React.FC<GmodalProps>;
 export {};
