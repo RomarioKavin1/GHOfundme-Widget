@@ -1,4 +1,4 @@
-# GhoFundMe React Components
+# GhoFundMe SDK
 
 ![npm version](https://img.shields.io/npm/v/ghofundme.svg)
 
@@ -11,10 +11,13 @@ Install the package using npm:
 
 ```bash
 npm install ghofundme
-🔧 Usage
+
 ```
+
+🔧 Usage
+
 ```jsx
-import { Gbutton, Gmodal, Card, Modal, Stepper, cn } from 'ghofundme';
+import { Gbutton, Gmodal} from 'ghofundme';
 ```
 Use the components in your React application
 Example:
