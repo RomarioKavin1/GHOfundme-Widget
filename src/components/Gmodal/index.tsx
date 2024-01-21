@@ -3,7 +3,7 @@ import { Card} from '../Card';
 import { Modal } from '../Modal';
 import Image from 'next/image';
 import React, { useState } from 'react';
-import Stepper from '../Stepper';
+import {Stepper} from '../Stepper';
 interface GmodalProps {
   children?: React.ReactNode;
   isOpen: boolean;

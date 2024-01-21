@@ -4,7 +4,7 @@ interface StepperProps {
   step: number;
 }
 
-function Stepper({ step }: StepperProps) {
+export function Stepper({ step }: StepperProps) {
   return (
     <ol className="flex w-3/4 items-center text-center text-sm font-medium text-gray-500 sm:text-base dark:text-gray-400">
       <li
@@ -74,5 +74,3 @@ function Stepper({ step }: StepperProps) {
     </ol>
   );
 }
-
-export default Stepper;

@@ -1,6 +1,6 @@
 {
   "name": "ghofundme",
-  "version": "1.0.6",
+  "version": "1.1.1",
   "description": "An SDK to Integrate The ghofund me Lens Application",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
